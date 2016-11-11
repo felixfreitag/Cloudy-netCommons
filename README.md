@@ -3,7 +3,7 @@ The development branch of Cloudy for the netCommons project
 
 This repository contains developments made on the Cloudy platform within the netCommons research project.
 
-### Testing
+### Installing Cloudy in Debian
 
 The script "cloudynitzar.sh" should be run to convert a Debian host into a Commnunity Networking cloud in a box.
 
@@ -31,3 +31,10 @@ Credentials:
     User: <your root user>
     Password: <your password>
 
+### Serf configuration
+
+Serf should be activated in your Clouyd instance order to interconnect with other Cloudy nodes.
+
+In the bootstrap node field introduce the IP and port of a running Serf agent.
+
+![alt text](images/Serf_1b.png "Serf configuration")
