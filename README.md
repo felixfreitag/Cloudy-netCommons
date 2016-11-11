@@ -42,3 +42,11 @@ Serf should be activated in your Cloudy instance order to interconnect with othe
 In the bootstrap node field introduce the IP and port of a running Serf agent.
 
 ![alt text](images/Serf_1b.png "Serf configuration")
+
+### Docker installation
+
+Open to the *Enterprise Cloud* menu and by clicking on *Docker* you will install the Docker daemon.
+
+![alt text](images/Cloudy_docker_menu.png "Docker installation")
+
+
