@@ -31,9 +31,13 @@ Credentials:
     User: <your root user>
     Password: <your password>
 
+After successful login the following screen appears:
+
+![alt text](images/Cloudy-home.png "Welcome screen")
+
 ### Serf configuration
 
-Serf should be activated in your Clouyd instance order to interconnect with other Cloudy nodes.
+Serf should be activated in your Cloudy instance order to interconnect with other Cloudy nodes.
 
 In the bootstrap node field introduce the IP and port of a running Serf agent.
 
