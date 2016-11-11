@@ -45,7 +45,7 @@ In the bootstrap node field introduce the IP and port of a running Serf agent.
 
 ### Docker installation
 
-Open to the *Enterprise Cloud* menu and by clicking on *Docker* you will install the Docker daemon.
+Open to the *Enterprise cloud* menu and by clicking on *Docker* you will install the Docker daemon.
 
 ![alt text](images/Cloudy_docker_menu.png "Docker installation")
 
