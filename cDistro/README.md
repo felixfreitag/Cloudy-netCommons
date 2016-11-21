@@ -2,11 +2,11 @@
 
 Modifications have been made to files in the folders:
 
- /plug/avahi/
+ /web/plug/avahi/
 ---
- /plug/controllers/
+ /web/plug/controllers/
 ---
- /plug/menus/
+ /web/plug/menus/
 ---
 
 When installing Cloudy packages through `cloudynitzar.sh,` the following folders are created to manage Docker containers:
