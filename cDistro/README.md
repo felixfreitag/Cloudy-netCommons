@@ -1,8 +1,8 @@
 # cDistro Docker panel integration
 
-The modifications for the Docker panel have been integrated in https://github.com/Clommunity/cDistro
+The modifications for the Docker panel were integrated in Cloudy in https://github.com/Clommunity/cDistro
 
-Modifications have been made to files in the following folders:
+For this integration modifications were made to files in the following folders:
 
  /web/plug/avahi/
 ---
