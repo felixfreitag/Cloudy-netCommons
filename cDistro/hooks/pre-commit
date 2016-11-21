@@ -1,0 +1,37 @@
+#!/bin/sh
+#
+# Simple pre-commit hook to check that there are no errors in the cdistro
+# source files.
+
+# Redirect output to stderr.
+exec 1>&2
+
+SH_FILES="cdistro hooks/pre-commit web/plug/resources/*/*.init.d"
+BASH_FILES="cdistrod"
+PHP_FILES="$(find web -name '*.php' -type f)"
+
+err() {
+	echo ERROR: "$@"
+	exit 1
+}
+
+for f in $SH_FILES; do
+	if ! dash -n $f; then
+		err "dash tests failed!"
+	fi
+done
+
+
+for f in $BASH_FILES; do
+	if ! bash -n $f; then
+		err "bash tests failed!"
+	fi
+done
+
+for f in $PHP_FILES; do
+	if ! php -l $f 1>/dev/null; then
+		err "php tests failed!"
+	fi
+done
+
+exit 0
