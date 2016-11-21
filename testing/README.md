@@ -1,9 +1,5 @@
-# Cloudy-netCommons
-The development branch of Cloudy for the netCommons project
 
-This repository contains developments made on the Cloudy platform within the netCommons research project.
-
-### Installing Cloudy in Debian
+# Installing Cloudy in Debian
 
 The script "cloudynitzar.sh" should be run to convert a Debian host into a Commnunity Networking cloud in a box.
 
